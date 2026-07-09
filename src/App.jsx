@@ -5,14 +5,18 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import CounterComponent from './component/CounterComponent'
 import ToggleComponent from './component/ToggleComponent'
+import CharacterCounter from './component/CharacterCounter'
+import PasswordToggle from './component/PasswordToggle'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <CounterComponent/>
-    <ToggleComponent/>
+    {/* <CounterComponent/> */}
+    {/* <ToggleComponent/> */}
+    {/* <CharacterCounter/> */}
+    {/* <PasswordToggle/> */}
     </>
   )
 }
