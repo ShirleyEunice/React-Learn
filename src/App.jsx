@@ -7,6 +7,7 @@ import CounterComponent from './component/CounterComponent'
 import ToggleComponent from './component/ToggleComponent'
 import CharacterCounter from './component/CharacterCounter'
 import PasswordToggle from './component/PasswordToggle'
+import UserList from './component/UserList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
     {/* <ToggleComponent/> */}
     {/* <CharacterCounter/> */}
     {/* <PasswordToggle/> */}
+    <UserList/>
     </>
   )
 }
