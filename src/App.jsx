@@ -8,6 +8,8 @@ import ToggleComponent from './component/ToggleComponent'
 import CharacterCounter from './component/CharacterCounter'
 import PasswordToggle from './component/PasswordToggle'
 import UserList from './component/UserList'
+import TodoApp from './component/TodoApp'
+import SearchFilter from './component/SearchFilter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,9 @@ function App() {
     {/* <ToggleComponent/> */}
     {/* <CharacterCounter/> */}
     {/* <PasswordToggle/> */}
-    <UserList/>
+    {/* <UserList/> */}
+    {/* <TodoApp/> */}
+    <SearchFilter/>
     </>
   )
 }
