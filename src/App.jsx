@@ -10,6 +10,7 @@ import PasswordToggle from './component/PasswordToggle'
 import UserList from './component/UserList'
 import TodoApp from './component/TodoApp'
 import SearchFilter from './component/SearchFilter'
+import Parent from './component/parent/Parent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +23,8 @@ function App() {
     {/* <PasswordToggle/> */}
     {/* <UserList/> */}
     {/* <TodoApp/> */}
-    <SearchFilter/>
+    {/* <SearchFilter/> */}
+    <Parent/>
     </>
   )
 }
