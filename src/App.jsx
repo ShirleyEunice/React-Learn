@@ -12,6 +12,7 @@ import TodoApp from './component/TodoApp'
 import SearchFilter from './component/SearchFilter'
 import Parent from './component/parent/Parent'
 import Timer from './component/Timer'
+import FetchUserList from './component/FetchUserList'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +27,8 @@ function App() {
     {/* <TodoApp/> */}
     {/* <SearchFilter/> */}
     {/* <Parent/> */}
-    <Timer/>
+    {/* <Timer/> */}
+    <FetchUserList/>
     </>
   )
 }
